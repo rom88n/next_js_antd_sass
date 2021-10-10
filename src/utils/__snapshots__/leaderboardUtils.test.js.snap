@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`leaderboardUtils initialLeaderboardTableValues 1`] = `
+Array [
+  Object {
+    "dataIndex": "rank",
+    "key": "rank",
+    "show": true,
+    "title": "Rank",
+    "width": undefined,
+  },
+  Object {
+    "dataIndex": "site",
+    "key": "site",
+    "show": true,
+    "title": [Function],
+    "width": 250,
+  },
+  Object {
+    "children": Array [
+      Object {
+        "dataIndex": "month",
+        "key": "month",
+        "show": true,
+        "title": [Function],
+        "width": 200,
+      },
+      Object {
+        "dataIndex": "lastMonth",
+        "key": "lastMonth",
+        "show": true,
+        "title": [Function],
+        "width": undefined,
+      },
+    ],
+    "dataIndex": "totalRevenues",
+    "title": [Function],
+  },
+]
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tableUtils addSortPriorityAndDirecton 1`] = `
+Array [
+  Object {
+    "dataIndex": "company",
+    "defaultSortOrder": null,
+    "key": "company",
+    "sortDirections": Array [
+      "ascend",
+      "descend",
+      "default",
+      "ascend",
+    ],
+    "sorter": Object {
+      "multiple": 1,
+    },
+    "title": "Company",
+  },
+  Object {
+    "dataIndex": "unitName",
+    "key": "unitName",
+    "title": "Unit name",
+    "withoutSort": true,
+  },
+]
+`;
+
+exports[`tableUtils tableGetColumnsWidth 1`] = `
+Object {
+  "company": 782,
+  "unitName": 255,
+}
+`;
