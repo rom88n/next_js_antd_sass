@@ -5,7 +5,7 @@
   | -- components      // React UI component
   | -- containers      // React container component
   | -- pages           // Next.js routes
-  | -- redux
+  | -- redux-base
       | -- actions     // deal all projectaction
       | -- reducers    // deal all project reducer
       | -- sagas       // sace all project saga
